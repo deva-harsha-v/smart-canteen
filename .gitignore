@@ -1,0 +1,33 @@
+# Essential Protections (The Big Four)
+node_modules
+.next
+.env
+.env.local
+
+# Next.js / Build Outputs
+/out/
+/build
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# Package Manager artifacts
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+# Note: Keep package-lock.json or yarn.lock; do NOT ignore them.
+
+# Testing & Debugging
+/coverage
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Misc / OS Files
+.DS_Store
+*.pem
